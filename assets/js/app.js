@@ -29,7 +29,7 @@
       document.documentElement.setAttribute('data-theme', value);
       toggle.setAttribute('aria-label', value === 'dark' ? 'Activar tema claro' : 'Activar tema oscuro');
       var meta = $('meta[name="theme-color"]');
-      if (meta) meta.setAttribute('content', value === 'dark' ? '#070d0a' : '#f5f8f6');
+      if (meta) meta.setAttribute('content', value === 'dark' ? '#0c0e12' : '#f4f5f7');
     };
 
     toggle.addEventListener('click', function () {
